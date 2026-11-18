@@ -1,0 +1,28 @@
+{
+  "name": "cellium-theme",
+  "displayName": "Cellium Theme",
+  "description": "Cellium 官方配色：与 TUI / WebUI 主题变量完全对齐",
+  "version": "0.2.1",
+  "publisher": "cellium",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cellium Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cellium-dark-color-theme.json"
+      },
+      {
+        "label": "Cellium Light",
+        "uiTheme": "vs",
+        "path": "./themes/cellium-light-color-theme.json"
+      }
+    ]
+  }
+}
