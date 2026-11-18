@@ -24,5 +24,13 @@
         "path": "./themes/cellium-light-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaojinao/vscode-theme-cellium.git"
+  },
+  "homepage": "https://github.com/xiaojinao/vscode-theme-cellium#readme",
+  "bugs": {
+    "url": "https://github.com/xiaojinao/vscode-theme-cellium/issues"
   }
 }
